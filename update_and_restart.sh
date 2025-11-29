@@ -22,3 +22,4 @@ if [ "$LOCAL_HASH" != "$REMOTE_HASH" ]; then
     echo "[IoT4G] Готово!" >> "$LOG_FILE"
 else
     echo "[IoT4G] Обновлений нет" >> "$LOG_FILE"
+fi
