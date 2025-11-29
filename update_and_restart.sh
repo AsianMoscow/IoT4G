@@ -25,3 +25,4 @@ sudo systemctl restart iot4g >> "$LOG_FILE" 2>&1
 
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] [IoT4G] Обновление завершено, сервис перезапущен." >> "$LOG_FILE"
 chmod +x ./update_and_restart.sh
+
