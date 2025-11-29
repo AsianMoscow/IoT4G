@@ -6,7 +6,7 @@ def main():
     root.title("IoT4G — Auto Update Test")
     root.geometry("300x200")
 
-    label = tk.Label(root, text="Hello world! 7", font=("Arial", 20))
+    label = tk.Label(root, text="Hello world! 8", font=("Arial", 20))
     label.pack(expand=True)
 
     root.mainloop()
